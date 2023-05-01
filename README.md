@@ -51,7 +51,9 @@ sudo apt install python-rosdep
 
 Initialize rosdep
 ``` sudo rosdep init
-rosdep update```
+rosdep update
+
+```
 
 
 
