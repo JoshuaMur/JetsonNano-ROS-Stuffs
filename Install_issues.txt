@@ -1,0 +1,80 @@
+Errors     << ceres-solver:cmake /home/thejoshversejetsonnano/drone_acrobatics_ws/catkin_dda/logs/ceres-solver/build.cmake.001.log
+CMake Error at /home/thejoshversejetsonnano/drone_acrobatics_ws/catkin_dda/src/ceres-solver/CMakeLists.txt:32 (cmake_minimum_required):
+  CMake 3.11 or higher is required.  You are running version 3.10.2
+
+cd /home/thejoshversejetsonnano/drone_acrobatics_ws/catkin_dda/build/ceres-solver; catkin build --get-env ceres-solver | catkin env -si  /usr/bin/cmake /home/thejoshversejetsonnano/drone_acrobatics_ws/catkin_dda/src/ceres-solver --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/thejoshversejetsonnano/drone_acrobatics_ws/catkin_dda/devel -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS=-fdiagnostics-color; cd -
+
+
+
+.......................................................................................................
+Failed     << ceres-solver:cmake                                [ Exited with code 1 ]                 
+Failed    <<< ceres-solver                                      [ 0.3 seconds ]                        
+Abandoned <<< mav_system_msgs                                   [ Unrelated job failed ]               
+Abandoned <<< octomap                                           [ Unrelated job failed ]               
+Abandoned <<< octomap_msgs                                      [ Unrelated job failed ]               
+Abandoned <<< rotors_description                                [ Unrelated job failed ]               
+Abandoned <<< rotors_evaluation                                 [ Unrelated job failed ]               
+Abandoned <<< rqt_rotors                                        [ Unrelated job failed ]               
+Abandoned <<< vins_estimator                                    [ Unrelated job failed ]               
+Abandoned <<< eigen_catkin                                      [ Unrelated job failed ]               
+Abandoned <<< gflags_catkin                                     [ Unrelated job failed ]               
+Abandoned <<< minimum_jerk_trajectories                         [ Unrelated job failed ]               
+Abandoned <<< quad_launch_files                                 [ Unrelated job failed ]               
+Abandoned <<< quadrotor_msgs                                    [ Unrelated job failed ]               
+Abandoned <<< test_performance                                  [ Unrelated job failed ]               
+Abandoned <<< catkin_boost_python_buildtool_test                [ Unrelated job failed ]               
+Abandoned <<< glog_catkin                                       [ Unrelated job failed ]               
+Abandoned <<< camera_model                                      [ Unrelated job failed ]               
+Abandoned <<< ar_demo                                           [ Unrelated job failed ]               
+Abandoned <<< eigen_checks                                      [ Unrelated job failed ]               
+Abandoned <<< feature_tracker                                   [ Unrelated job failed ]               
+Abandoned <<< mav_planning_msgs                                 [ Unrelated job failed ]               
+Abandoned <<< minkindr                                          [ Unrelated job failed ]               
+Abandoned <<< minkindr_conversions                              [ Unrelated job failed ]               
+Abandoned <<< numpy_eigen                                       [ Unrelated job failed ]               
+Abandoned <<< minkindr_python                                   [ Unrelated job failed ]               
+Abandoned <<< dynamic_edt_3d                                    [ Unrelated job failed ]               
+Abandoned <<< octomap_ros                                       [ Unrelated job failed ]               
+Abandoned <<< octovis                                           [ Unrelated job failed ]               
+Abandoned <<< pose_graph                                        [ Unrelated job failed ]               
+Abandoned <<< pose_utils                                        [ Unrelated job failed ]               
+Abandoned <<< odometry_converter                                [ Unrelated job failed ]               
+Abandoned <<< quadrotor_common                                  [ Unrelated job failed ]               
+Abandoned <<< polynomial_trajectories                           [ Unrelated job failed ]               
+Abandoned <<< acrobatic_trajectory_helper                       [ Unrelated job failed ]               
+Abandoned <<< position_controller                               [ Unrelated job failed ]               
+Abandoned <<< rotors_comm                                       [ Unrelated job failed ]               
+Abandoned <<< rotors_control                                    [ Unrelated job failed ]               
+Abandoned <<< rotors_gazebo_plugins                             [ Unrelated job failed ]               
+Abandoned <<< rotors_gazebo                                     [ Unrelated job failed ]               
+Abandoned <<< rotors_hil_interface                              [ Unrelated job failed ]               
+Abandoned <<< rotors_joy_interface                              [ Unrelated job failed ]               
+Abandoned <<< rpg_rotors_interface                              [ Unrelated job failed ]               
+Abandoned <<< rqt_quad_gui                                      [ Unrelated job failed ]               
+Abandoned <<< sbus_bridge                                       [ Unrelated job failed ]               
+Abandoned <<< manual_flight_assistant                           [ Unrelated job failed ]               
+Abandoned <<< custom_rotors_interface                           [ Unrelated job failed ]               
+Abandoned <<< state_predictor                                   [ Unrelated job failed ]               
+Abandoned <<< trajectory_generation_helper                      [ Unrelated job failed ]               
+Abandoned <<< autopilot                                         [ Unrelated job failed ]               
+Abandoned <<< controller_learning                               [ Unrelated job failed ]               
+Abandoned <<< rpg_mpc                                           [ Unrelated job failed ]               
+Abandoned <<< fpv_aggressive_trajectories                       [ Unrelated job failed ]               
+Abandoned <<< rpg_quadrotor_integration_test                    [ Unrelated job failed ]               
+Abandoned <<< trajectory_visualizer                             [ Unrelated job failed ]               
+Abandoned <<< vbat_thrust_calibration                           [ Unrelated job failed ]               
+Finished  <<< catkin_boost_python_buildtool                     [ 0.5 seconds ]                        
+Finished  <<< mav_state_machine_msgs                            [ 16.0 seconds ]                       
+Finished  <<< mav_msgs                                          [ 20.5 seconds ]  
+
+
+[build] Summary: 5 of 60 packages succeeded.                                                           
+[build]   Ignored:   2 packages were skipped or are blacklisted.                                       
+[build]   Warnings:  None.                                                                             
+[build]   Abandoned: 54 packages were abandoned.                                                       
+[build]   Failed:    1 packages failed.                                                                
+[build] Runtime: 22.5 seconds total.                                                                   
+[build] Note: Workspace packages have changed, please re-source setup files to use them.
+
+
+
