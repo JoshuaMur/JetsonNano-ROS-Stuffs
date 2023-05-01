@@ -32,3 +32,26 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
  ``` 
  sudo apt install ros-melodic-desktop
  ```
+
+### 6. Add Environment Setup
+For the ROS environment variables to be automatically added to your bash session every time a new shell is launched:
+```
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+### 7. Dependencies for building packages
+```
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+```
+Install rosdep
+```
+sudo apt install python-rosdep
+```
+
+Initialize rosdep
+``` sudo rosdep init
+rosdep update```
+
+
+
