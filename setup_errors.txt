@@ -1,0 +1,17 @@
+~/drone_acrobatics_ws/catkin_dda/src$ catkin config --extend /opt/ros/$ROS_VERSION
+Traceback (most recent call last):
+  File "/usr/bin/catkin", line 11, in <module>
+    load_entry_point('catkin-tools==0.6.1', 'console_scripts', 'catkin')()
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/commands/catkin.py", line 272, in main
+    catkin_main(sysargs)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/commands/catkin.py", line 267, in catkin_main
+    sys.exit(args.main(args) or 0)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/verbs/catkin_config/cli.py", line 138, in main
+    remove=opts.remove_args)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/context.py", line 212, in load
+    ctx = Context(**context_args)
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/context.py", line 301, in __init__
+    self.extend_path = extend_path if extend_path else None
+  File "/usr/lib/python2.7/dist-packages/catkin_tools/context.py", line 584, in extend_path
+    raise ValueError("Resultspace path '{0}' does not exist.".format(value))
+ValueError: Resultspace path '/opt/ros/1' does not exist.
